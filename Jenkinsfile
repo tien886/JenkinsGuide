@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'my-docker-username/jenkins-guide-app'
-        DOCKER_TAG = "${env.BUILD_NUMBER}"
-        REGISTRY_CREDENTIALS_ID = 'docker-hub-credentials'
+        DOCKER_IMAGE = 'tien886/jenkins-guide-app'
+        DOCKER_TAG = "latest"
+        REGISTRY_CREDENTIALS_ID = '150706'
     }
 
     stages {

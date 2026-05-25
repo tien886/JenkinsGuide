@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'tien886/jenkins-guide-app'
-        DOCKER_TAG = "${env.BUILD_NUMBER}"
+        DOCKER_TAG = "latest"
         REGISTRY_CREDENTIALS_ID = '150706'
     }
 
